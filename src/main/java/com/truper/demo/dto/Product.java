@@ -7,8 +7,8 @@ import lombok.Data;
 public class Product {
 
     @JsonProperty("id")
-    public int id;
+    private Long id;
 
     @JsonProperty("cantidad")
-    public int quantity;
+    private Integer quantity;
 }

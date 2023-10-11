@@ -1,9 +1,11 @@
 package com.truper.demo.repository.entity;
 
+import lombok.Builder;
 import lombok.Data;
 
 import javax.persistence.*;
 
+@Builder
 @Data
 @Entity
 @Table(name = "LISTA_COMPRAS_DETALLE")

@@ -9,8 +9,8 @@ import java.util.ArrayList;
 public class ShoppingList {
 
     @JsonProperty("nombre")
-    public String name;
+    private String name;
 
     @JsonProperty("productos")
-    public ArrayList<Product> products;
+    private ArrayList<Product> products;
 }

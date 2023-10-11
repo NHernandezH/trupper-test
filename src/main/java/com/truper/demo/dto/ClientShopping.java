@@ -9,7 +9,7 @@ import java.util.ArrayList;
 public class ClientShopping {
 
     @JsonProperty("cliente")
-    public Long client;
+    private Long client;
     @JsonProperty("listas")
-    public ArrayList<ShoppingList> shoppingList;
+    private ArrayList<ShoppingList> shoppingList;
 }

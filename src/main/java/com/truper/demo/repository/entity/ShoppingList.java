@@ -15,6 +15,7 @@ public class ShoppingList {
 
     @Id
     @Column(name = "id_lista")
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(name = "nombre")
